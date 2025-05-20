@@ -58,23 +58,23 @@ input {
   }
 }
 .serching__wrapper {
-    padding: 0 10px;
+  padding: 0 10px;
   border: none;
   border-left: #6a6a6a9f 1px solid;
   border-right: #6a6a6a9f 1px solid;
 }
-nav{
-    width: 100%;
-    height: 150px;
-    background-image: url(./img/Background.png);
-    background-repeat: repeat;
-    border-bottom: 1px solid #6a6a6a23;
+nav {
+  width: 100%;
+  height: 150px;
+  background-image: url(./img/Background.png);
+  background-repeat: repeat;
+  border-bottom: 1px solid #6a6a6a23;
 }
 
 .searchs__wrapper::after {
   content: "";
   position: absolute;
-  background-image: url(./Button.png);
+  background-image: url(./img/Button.png);
   background-size: cover;
   top: 50%;
   right: 10px;
