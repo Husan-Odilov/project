@@ -18,7 +18,7 @@ ul{
 
 
 .container{
-    width: 100%;
+    width: 1400px;
     margin: 0 auto;
   
 }
@@ -102,5 +102,64 @@ height: 10px;
 
 
 .footer{
-    background-color: gold;
+    margin-top: 100px;
+    padding-top: 50px;
+    background-color: #F7F7F7;
+}
+
+
+ 
+.footer__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+    padding-right: 170px;
+}
+.footer__support {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: left;
+}
+.footer__title {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footer__text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-around;
+    gap: 200px;
+        margin-top: 20px;
+
+}
+.footer__left {
+    display: flex;
+    gap: 25px;
+}
+
+.bi {
+}
+.bi-facebook {
+}
+.bi-twitter-x {
+}
+
+.footer__span{
+    display: inline-block;
+    width: 90%;
+        margin-top: 50px;
+        margin-left: 5%;
+    height: 2px;
+    background-color: grey;
 }
