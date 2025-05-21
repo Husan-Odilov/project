@@ -8,27 +8,31 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Abdulaziz.css">
+    <link rel="stylesheet" href="Jovohir.css">
     <title>Document</title>
   </head>
   <body>
     <header class="header">
       <div class="inner">
+        <input type="search" placeholder="Начать поиск" class="header__inp">
         <div class="header__wrapper">
           <div class="header__logo">
             <img class="header__logo-img" src="./img/./header__logo.png" alt="" />
+            <img class="header__logo-only" src="./imgs/onlylogo.svg" alt="">
           </div>
           <ul class="header__menu">
             <li class="header__item">
               <img src="./img/./home btn.png" alt="" />
-              <p>Жилье</p>
+              <p class="header__title header__active">Жилье</p>
             </li>
             <li class="header__item">
               <img src="./img/./air buy.png" alt="" />
-              <p>Жилье</p>
+              <p class="header__title">Жилье</p>
             </li>
             <li class="header__item">
               <img src="./img/call.png" alt="" />
-              <p>Жилье</p>
+              <p class="header__title">Жилье</p>
             </li>
           </ul>
           <div class="header__btn-menu">
@@ -40,24 +44,24 @@
           </div>
         </div>
       </div>
-      <nav>
+      <nav class="search">
         <div class="center">
           <div class="searchs__wrapper">
             <div class="serching__wrapper">
-                <p>Где</p>
-              <input placeholder="Поиск направлений" type="search" name="" id="" />
+                <p class="search__text">Где</p>
+              <input class="search__input"  placeholder="Поиск направлений" type="search" name="" id="" />
             </div>
             <div class="serching__wrapper">
-                <p>Прибытие</p>
-                <input placeholder="Когда?" type="search" name="" id="" />
+                <p class="search__text">Прибытие</p>
+                <input class="search__input" placeholder="Когда?" type="search" name="" id="" />
             </div>
             <div class="serching__wrapper">
-                <p>Выезд</p>
-                <input placeholder="Когда?" type="search" name="" id="" />
+                <p class="search__text">Выезд</p>
+                <input class="search__input" placeholder="Когда?" type="search" name="" id="" />
             </div>
-            <div class="serching__wrapper">
-                <p>Кто</p>
-                <input placeholder="Кто едет?" type="search" name="" id="" />
+            <div class="serching__wrapper" style="border-right: 0;">
+                <p class="search__text">Кто</p>
+                <input class="search__input" placeholder="Кто едет?" type="search" name="" id="" />
             </div>
           </div>
         </div>
