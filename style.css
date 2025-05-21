@@ -40,6 +40,7 @@ input {
   align-items: center;
   padding: 20px 0;
 }
+
 .searchs__wrapper {
   position: relative;
   width: 850px;
@@ -71,10 +72,9 @@ nav {
   border-bottom: 1px solid #6a6a6a23;
 }
 
-
-.container{
-    width: 1400px;
-    margin: 0 auto;
+.container {
+  width: 1400px;
+  margin: 0 auto;
 }
 .searchs__wrapper::after {
   content: "";
@@ -118,6 +118,10 @@ nav {
   gap: 30px;
   width: 100%;
 }
+.header__logo-min {
+  display: none;
+}
+
 .hero__wrapper {
   display: flex;
   gap: 30px;
@@ -184,51 +188,47 @@ nav {
   height: 10px;
 }
 
-.footer{
-    margin-top: 100px;
-    padding-top: 50px;
-    background-color: #F7F7F7;
+.footer {
+  margin-top: 100px;
+  padding-top: 50px;
+  background-color: #f7f7f7;
 }
 
-
- 
 .footer__wrapper {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px 0;
-    width: 100%;
-    padding-right: 170px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+  padding-right: 170px;
 }
 .footer__support {
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    align-items: left;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: left;
 }
 .footer__title {
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .footer__text {
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 13px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 13px;
 }
-
 
 .footer__bottom {
-    display: flex;
-    justify-content: space-around;
-    gap: 200px;
-        margin-top: 20px;
-
+  display: flex;
+  justify-content: space-around;
+  gap: 200px;
+  margin-top: 20px;
 }
 .footer__left {
-    display: flex;
-    gap: 25px;
+  display: flex;
+  gap: 25px;
 }
 
 .bi {
@@ -238,18 +238,28 @@ nav {
 .bi-twitter-x {
 }
 
-.footer__span{
-    display: inline-block;
-    width: 90%;
-        margin-top: 50px;
-        margin-left: 5%;
-    height: 2px;
-    background-color: grey;
+.footer__span {
+  display: inline-block;
+  width: 90%;
+  margin-top: 50px;
+  margin-left: 5%;
+  height: 2px;
+  background-color: grey;
 }
 .hero__card_title {
   font-family: Roboto;
   font-weight: 500;
   font-size: 13px;
 }
-
-
+@media screen and (max-width: 768px) {
+  .header__wrapper {
+    flex-direction: column;
+    gap: 0;
+  }
+  .header__logo-min {
+    display: block;
+  }
+    .header__logo-img {
+        display: none;
+    }
+}
