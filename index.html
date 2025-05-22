@@ -8,33 +8,35 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Abdulaziz.css" />
+    <link rel="stylesheet" href="Jovohir.css" />
     <title>Document</title>
   </head>
   <body>
     <header class="header">
       <div class="inner">
+        <input type="search" placeholder="Начать поиск" class="header__inp" />
         <div class="header__wrapper">
           <div class="header__logo">
             <img
-            class="header__logo-img"
-            src="./img/./header__logo.png"
-            alt=""
+              class="header__logo-img"
+              src="./img/./header__logo.png"
+              alt=""
             />
-            <img class="header__logo-min" src="./img/SVG.png" alt="" />
+            <img class="header__logo-only" src="./imgs/onlylogo.svg" alt="" />
           </div>
           <ul class="header__menu">
             <li class="header__item">
-              <img src="./img/home btn.png" alt="" />
-
-              <p>Жилье</p>
+              <img src="./img/./home btn.png" alt="" />
+              <p class="header__title header__active">Жилье</p>
             </li>
             <li class="header__item">
               <img src="./img/./air buy.png" alt="" />
-              <p>Жилье</p>
+              <p class="header__title">Жилье</p>
             </li>
             <li class="header__item">
               <img src="./img/call.png" alt="" />
-              <p>Жилье</p>
+              <p class="header__title">Жилье</p>
             </li>
           </ul>
           <div class="header__btn-menu">
@@ -46,12 +48,13 @@
           </div>
         </div>
       </div>
-      <nav>
+      <nav class="search">
         <div class="center">
           <div class="searchs__wrapper">
             <div class="serching__wrapper">
-              <p>Где</p>
+              <p class="search__text">Где</p>
               <input
+                class="search__input"
                 placeholder="Поиск направлений"
                 type="search"
                 name=""
@@ -59,340 +62,149 @@
               />
             </div>
             <div class="serching__wrapper">
-              <p>Прибытие</p>
-              <input placeholder="Когда?" type="search" name="" id="" />
+              <p class="search__text">Прибытие</p>
+              <input
+                class="search__input"
+                placeholder="Когда?"
+                type="search"
+                name=""
+                id=""
+              />
             </div>
             <div class="serching__wrapper">
-              <p>Выезд</p>
-              <input placeholder="Когда?" type="search" name="" id="" />
+              <p class="search__text">Выезд</p>
+              <input
+                class="search__input"
+                placeholder="Когда?"
+                type="search"
+                name=""
+                id=""
+              />
             </div>
-            <div class="serching__wrapper">
-              <p>Кто</p>
-              <input placeholder="Кто едет?" type="search" name="" id="" />
+            <div class="serching__wrapper" style="border-right: 0">
+              <p class="search__text">Кто</p>
+              <input
+                class="search__input"
+                placeholder="Кто едет?"
+                type="search"
+                name=""
+                id=""
+              />
             </div>
           </div>
         </div>
       </nav>
     </header>
-    <main class="hero">
-      <section class="hero__dubai">
-        <div class="container">
-          <p class="hero__title">Дубай: популярное жилье</p>
-          <div class="hero__wrapper">
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
+    <main class="main">
+      <section class="hero">
+        <div class="inner">
+          <p class="hero__title">
+            Волшебная квартира с бассейном на крыше и видом на Бурдж- Халифа!
+          </p>
+          <div class="hero__img-wrapper">
+            <img class="hero__img" src="./img/hero  big img.png" alt="" />
+            <div class="hero__left">
+              <img
+                src="./img/left hero imgs1.png"
+                alt=""
+                class="hero__left-imgs"
+              />
+              <img
+                src="./img/left hero imgs2.png"
+                alt=""
+                class="hero__left-imgs"
+              />
             </div>
           </div>
         </div>
       </section>
-      <section class="hero__dubai">
-        <div class="container">
-          <p class="hero__title">Дубай: популярное жилье</p>
-          <div class="hero__wrapper">
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
+      <section class="comforts">
+        <div class="inner">
+          <h2 class="comfort__title">Жилье целиком, Дубай, ОАЭ</h2>
+          <img class="info" src="./img/Ordered List.png" alt="" />
+          <div class="the__product-reitings">
+            <div class="logo__of-comfort">
+              <img src="./img/wing(1).png" alt="" />
+              <p>
+                Выбор <br />
+                гостей
+              </p>
+              <img src="./img/wing(2).png" alt="" />
+            </div>
+            <div class="reiting">
+              <p class="info__about-hotel">
+                Это жилье — одно из самых <br />
+                любимых у гостей на Airbnb
+              </p>
+            </div>
+            <div class="">
+              <p class="stap__title">4.83</p>
+              <div class="stars">
+                <img src="./img/stars.png" alt="" />
+                <img src="./img/stars.png" alt="" />
+                <img src="./img/stars.png" alt="" />
+                <img src="./img/stars.png" alt="" />
+                <img src="./img/stars.png" alt="" />
               </div>
             </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
+            <div class="">
+              <p class="otzov">78</p>
+              <p>отзывов</p>
             </div>
           </div>
+          <div class="info__inthe-box"></div>
+          <p class="info__with-hotel">
+            Квартира с одной спальней в центре Дубая, рядом с Бурдж-Халифой.
+            Бассейн на крыше. Кровать размера King size. Бесплатный Wi-Fi,
+            бесплатная парковка и бесплатный тренажерный зал. Рядом с метро.
+            <br />
+            <br />
+
+            Добро пожаловать в Paramount - ваш дом. В этой стильной, современной
+            квартире есть все, чтобы сделать ваше пребывание идеальным.
+            Наслаждайтесь жизнью рядом с самым высоким зданием в мире с роскошью
+            красивого дома.
+          </p>
+          <button class="show__more">Показать еще</button>
         </div>
       </section>
-      <section class="hero__dubai">
-        <div class="container">
-          <p class="hero__title">Дубай: популярное жилье</p>
-          <div class="hero__wrapper">
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
-            <div class="hero__card">
-              <img class="hero__img" src="./imgs/dubai.png" alt="" />
-              <i class="bi bi-heart"></i>
-              <div class="hero__position">Выбор гостей</div>
-              <p class="hero__card_title">Квартира, Даунтаун Дубай</p>
-              <div class="hero__text_box">
-                <p class="hero__text">$230 за 2 ночи </p>
-                <p class="hero__text hero__text--star">4,83</p>
-              </div>
-            </div>
+      <section class="your__leve-place">
+        <div class="inner">
+          <h2 class="big__title">Где вы будете спать</h2>
+          <ul class="cards">
+            <li class="card">
+              <img src="./img/cardimg1.png" alt="" />
+              <p class="card__title">Спальня</p>
+              <p class="card__sup-title">1 кровать кинг-сайз</p>
+            </li>
+            <li class="card">
+              <img src="./img/card img2.png" alt="" />
+              <p class="card__title">Спальня</p>
+              <p class="card__sup-title">1 кровать кинг-сайз</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="date">
+        <div class="inner">
+          <h2 class="big__title">2 ночи в районе Дубай</h2>
+          <p class="sup__title">22 авг. 2025 г. - 24 авг. 2025 г.</p>
+          <img src="./img/date img.png" alt="" />
+        </div>
+      </section>
+      <section class="hotel__aportamants">
+        <div class="inner">
+          <div class="hotel__logo">
+            <img src="./img/black__wing.png" alt="" />
+            <h2 class="hotel__logo-text">4.83</h2>
+            <img src="./img/black__wing2.png" alt="" />
+          </div>
+          <div class="hotel__texts">
+            <h2 class="big__title">Выбор гостей</h2>
+            <p class="sup__title sup__text">
+              Это жилье очень любят гости. Оценка основана на рейтингах, отзывах
+              и показателях надежности
+            </p>
           </div>
         </div>
       </section>

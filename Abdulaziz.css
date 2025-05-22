@@ -1,0 +1,98 @@
+.hero__img-wrapper {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+section {
+  margin: 50px;
+}
+.hero__title {
+  font-size: large;
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo__of-comfort {
+  display: flex;
+  p {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  img {
+    width: 30px;
+    height: 50px;
+  }
+}
+.the__product-reitings {
+  width: 600px;
+  display: flex;
+  gap: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border: #f7f7f7 solid 1px;
+  border-radius: 10px;
+}
+.info {
+  width: 500px;
+  height: 15px;
+}
+.info__about-hotel {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.stap__title {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 22px;
+}
+.otzov {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 22px;
+}
+.info__with-hotel {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+}
+.show__more {
+  display: inline-block;
+  width: 210px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  top: 14px;
+  left: 24px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+.hotel__logo-text {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 100px;
+  color: #222222;
+}
+.hotel__logo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.hotel__texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sup__text{
+  width: 300px;
+  text-align: center;
+}
