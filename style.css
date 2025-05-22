@@ -93,6 +93,8 @@ nav {
 .black__bg {
   background-color: black;
   color: white;
+  display: flex;align-items: center;
+  justify-content: center;
 }
 
 .header__btn-menu {
@@ -120,10 +122,12 @@ nav {
   gap: 30px;
   width: 100%;
   overflow-x: scroll;
+
 }
 
 .hero__dubai {
   margin-top: 60px;
+    margin-left: 20px;
 }
 
 .bi-heart {
@@ -288,7 +292,240 @@ nav {
 
 }
 
+
+.headerr{
+  border-bottom: 1px solid #dcd9d9;
+}
+
+.prophile {
+}
+
+.prophile__wrapper {
+  display: flex;
+  margin-left: 100px;
+}
+.propfhilee {
+border-right: 1px solid #dcd9d9;
+padding-right: 50px;
+padding-bottom: 60px;
+}
+.prophile__title {
+font-family: Roboto;
+font-weight: 600;
+font-size: 32px;
+line-height: 36px;
+letter-spacing: 0%;
+margin-top: 70px;
+
+
+margin-bottom: 20px;
+
+}
+.prophile__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+gap: 19px;
+}
+.prophile__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 70px 10px 20px;
+   
+  border-radius: 10px;
+}
+.prophile__item--active {
+  background-color: #F2F2F2;
+}
+.prophile__name {
+  font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+vertical-align: middle;
+
+}
+
+
+
+
+
+.prophile__about_me {
+
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+
+
+ 
+.flex {
+  display: flex;align-items: center;gap: 40px;
+}
+.prophile__subtitle {
+  font-family: Roboto;
+font-weight: 600;
+font-size: 32px;
+line-height: 36px;
+letter-spacing: 0%;
+margin-bottom: 20px;
+
+}
+.prophile__btn {
+  padding: 8px 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: #F2F2F2;
+}
+.prophile__accaunt {
+box-shadow: 0px 8px 24px 0px #0000001A;
+padding: 30px 0;
+ border-radius: 10px;
+   min-width: 335px;
+
+display: flex;align-items: center;flex-direction: column;
+}
+.prophile__text_box {
+}
+.prophile__big_text {
+  font-family: Roboto;
+font-weight: 500;
+font-size: 22px;
+line-height: 26px;
+letter-spacing: 0%;
+
+}
+.prophile__text {
+  font-family: Roboto;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0%;
+color: #6A6A6A;
+width: 220px;
+margin-top: 10px;
+}
+.prophile__btn_start {
+background: linear-gradient(90deg, #E61E4D 0%, #E31C5F 50%, #D70466 100%);
+border: none;
+padding: 15px 25px;
+color: white;
+border-radius: 12px;
+margin-top: 12px;
+}
+
+.prophile__user_name {
+  font-family: Roboto;
+ 
+font-weight: 600;
+font-size: 31.5px;
+line-height: 35.87px;
+letter-spacing: 0%;
+text-align: center;
+color: #222222;
+
+}
+.prophile__user_info {
+  font-family: Roboto;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+color: #6A6A6A;
+}
+
+
+.prophile__title_responsive{
+  display: none;
+font-family: Roboto;
+font-weight: 600;
+font-size: 32px;
+line-height: 36px;
+letter-spacing: 0%;
+margin-bottom: 20px;
+}
+
+
+.prophile__none{
+  display: none;
+}
+.prophile__settings{
+  display: none;
+  margin-top: 20px;
+
+}
+.z{
+  font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #222222;
+}
+@media only screen and (max-width: 1080px){
+.prophile__about_me{
+  margin-left: 30px;
+}
+.prophile__wrapper{
+  margin-left: 0px;
+}
+}
+
+
+
+
 @media only screen and (max-width: 850px){
+.prophile__settings{
+  display: flex;
+  align-items: left;flex-direction: column;
+  gap: 35px;
+
+}
+  .prophile__title_responsive{
+  display: inline-block;
+}
+
+.prophile__none{
+  display: flex;
+  gap: 15px;
+  margin-top: 16px;
+}
+
+.prophile__wrapper{
+  flex-direction: column-reverse;
+}
+  .prophile__accaunt{
+    max-width: 515px;
+    min-width: 250px;
+      
+  }
+
+.header__wrapper{
+  padding-bottom: 15px;
+}
+
+.prophile__about_me{
+flex-direction: column;
+display: flex;
+align-items: center;
+margin-left: 0;
+}
+.prophile__text_box{
+  display: none;
+}
+.x{
+  display: none;
+}
+.c{
+  display: inline-block;
+}
+.propfhilee{
+  display: none;
+}
   .footer__bottom{
 flex-direction: column;
 gap: 30px;
@@ -309,6 +546,17 @@ gap: 30px;
 }
 
 @media only screen and (max-width: 625px){
+.prophile__settings{
+    margin-left: 20px;
+}
+  .prophile__accaunt{
+    max-width: 685px;
+    min-width: 190px;
+  }
+  .footer__left{
+    display: none;
+  }
+
 .search{
   display: none;
 }
