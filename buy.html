@@ -7,27 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <header class="header">
+        <header class="header">
       <div class="inner">
         <input type="search" placeholder="Начать поиск" class="header__inp">
         <div class="header__wrapper">
           <div class="header__logo">
-            <img class="header__logo-img" src="./img/./header__logo.png" alt="" />
+            <a href="index.html">
+              <img class="header__logo-img" src="./img/./header__logo.png" alt="" />
             <img class="header__logo-only" src="./imgs/onlylogo.svg" alt="">
+            </a>
           </div>
           <ul class="header__menu">
-            <li class="header__item">
-              <img src="./img/./home btn.png" alt="" />
+          <a href="index.html">  <li class="header__item">
+              <img class="header__img" src="./img/./home btn.png" alt="" />
               <p class="header__title header__active">Жилье</p>
+            </li></a>
+            <a href="uslugi.html">
+              <li class="header__item">
+              <img class="header__img" src="./img/./air buy.png" alt="" />
+              <p class="header__title">Впечатления</p>
             </li>
-            <li class="header__item">
-              <img src="./img/./air buy.png" alt="" />
-              <p class="header__title">Жилье</p>
+            </a>
+            <a href="experience.html">
+              <li class="header__item">
+              <img class="header__img" src="./img/call.png" alt="" />
+              <p class="header__title">Услуги</p>
             </li>
-            <li class="header__item">
-              <img src="./img/call.png" alt="" />
-              <p class="header__title">Жилье</p>
-            </li>
+            </a>
           </ul>
           <div class="header__btn-menu">
             <p class="header__btns-text">Станьте хозяином</p>
@@ -61,5 +67,7 @@
         </div>
       </nav>
     </header>
+
+  
 </body>
 </html>

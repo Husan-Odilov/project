@@ -13,31 +13,33 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header">
+        <header class="header">
       <div class="inner">
-        <input type="search" placeholder="Начать поиск" class="header__inp" />
+        <input type="search" placeholder="Начать поиск" class="header__inp">
         <div class="header__wrapper">
           <div class="header__logo">
-            <img
-              class="header__logo-img"
-              src="./img/./header__logo.png"
-              alt=""
-            />
-            <img class="header__logo-only" src="./imgs/onlylogo.svg" alt="" />
+            <a href="index.html">
+              <img class="header__logo-img" src="./img/./header__logo.png" alt="" />
+            <img class="header__logo-only" src="./imgs/onlylogo.svg" alt="">
+            </a>
           </div>
           <ul class="header__menu">
-            <li class="header__item">
-              <img src="./img/./home btn.png" alt="" />
-              <p class="header__title header__active">Жилье</p>
-            </li>
-            <li class="header__item">
-              <img src="./img/./air buy.png" alt="" />
+          <a href="index.html">  <li class="header__item">
+              <img class="header__img" src="./img/./home btn.png" alt="" />
               <p class="header__title">Жилье</p>
+            </li></a>
+            <a href="uslugi.html">
+              <li class="header__item">
+              <img class="header__img" src="./img/./air buy.png" alt="" />
+              <p class="header__title">Впечатления</p>
             </li>
-            <li class="header__item">
-              <img src="./img/call.png" alt="" />
-              <p class="header__title">Жилье</p>
+            </a>
+            <a href="experience.html">
+              <li class="header__item">
+              <img class="header__img" src="./img/call.png" alt="" />
+              <p class="header__title">Услуги</p>
             </li>
+            </a>
           </ul>
           <div class="header__btn-menu">
             <p class="header__btns-text">Станьте хозяином</p>
@@ -52,44 +54,20 @@
         <div class="center">
           <div class="searchs__wrapper">
             <div class="serching__wrapper">
-              <p class="search__text">Где</p>
-              <input
-                class="search__input"
-                placeholder="Поиск направлений"
-                type="search"
-                name=""
-                id=""
-              />
+                <p class="search__text">Где</p>
+              <input class="search__input"  placeholder="Поиск направлений" type="search" name="" id="" />
             </div>
             <div class="serching__wrapper">
-              <p class="search__text">Прибытие</p>
-              <input
-                class="search__input"
-                placeholder="Когда?"
-                type="search"
-                name=""
-                id=""
-              />
+                <p class="search__text">Прибытие</p>
+                <input class="search__input" placeholder="Когда?" type="search" name="" id="" />
             </div>
             <div class="serching__wrapper">
-              <p class="search__text">Выезд</p>
-              <input
-                class="search__input"
-                placeholder="Когда?"
-                type="search"
-                name=""
-                id=""
-              />
+                <p class="search__text">Выезд</p>
+                <input class="search__input" placeholder="Когда?" type="search" name="" id="" />
             </div>
-            <div class="serching__wrapper" style="border-right: 0">
-              <p class="search__text">Кто</p>
-              <input
-                class="search__input"
-                placeholder="Кто едет?"
-                type="search"
-                name=""
-                id=""
-              />
+            <div class="serching__wrapper" style="border-right: 0;">
+                <p class="search__text">Кто</p>
+                <input class="search__input" placeholder="Кто едет?" type="search" name="" id="" />
             </div>
           </div>
         </div>
@@ -206,6 +184,256 @@
               и показателях надежности
             </p>
           </div>
+          <ul class="status__list">
+            <li class="status__item all__status">
+              <div class="">
+                <h2 class="status__list-text">Общая оценка</h2>
+                <img src="./img/status.png" alt="" />
+              </div>
+            </li>
+            <li class="status__item">
+              <div class="">
+                <h2 class="status__list-text">Чистота</h2>
+                <p class="big__title">4.9</p>
+              </div>
+              <img src="./img/Vector.png" alt="" />
+            </li>
+            <li class="status__item">
+              <div class="">
+                <h2 class="status__list-text">Чистота</h2>
+                <p class="big__title">4.9</p>
+              </div>
+              <img src="./img/Vector.png" alt="" />
+            </li>
+            <li class="status__item">
+              <div class="">
+                <h2 class="status__list-text">Чистота</h2>
+                <p class="big__title">4.9</p>
+              </div>
+              <img src="./img/Vector.png" alt="" />
+            </li>
+            <li class="status__item">
+              <div class="">
+                <h2 class="status__list-text">Чистота</h2>
+                <p class="big__title">4.9</p>
+              </div>
+              <img src="./img/Vector.png" alt="" />
+            </li>
+            <li class="status__item">
+              <div class="">
+                <h2 class="status__list-text">Чистота</h2>
+                <p class="big__title">4.9</p>
+              </div>
+              <img src="./img/Vector.png" alt="" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="comments">
+        <div class="inner">
+          <ul class="comments__list">
+            <li>
+              <div class="profil__comentaror">
+                <img src="./img/comentator img.png" alt="" />
+                <div>
+                  <h2>Kuba</h2>
+                  <p>6 лет на Airbnb</p>
+                </div>
+              </div>
+              <div class="comentator__reiting">
+                <div class="">
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                </div>
+                <p>март 2025 г.</p>
+                <p class="sup__title">Срок аренды — несколько ночей</p>
+              </div>
+              <p>Вся хорошая мебель среднего класса</p>
+              <a class="show__more-a">Показать еще</a>
+            </li>
+            <li>
+              <div class="profil__comentaror">
+                <img src="./img/comentator img.png" alt="" />
+                <div>
+                  <h2>Kuba</h2>
+                  <p>6 лет на Airbnb</p>
+                </div>
+              </div>
+              <div class="comentator__reiting">
+                <div class="">
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                </div>
+                <p>март 2025 г.</p>
+                <p class="sup__title">Срок аренды — несколько ночей</p>
+              </div>
+              <p>Вся хорошая мебель среднего класса</p>
+              <a class="show__more-a">Показать еще</a>
+            </li>
+            <li>
+              <div class="profil__comentaror">
+                <img src="./img/comentator img.png" alt="" />
+                <div>
+                  <h2>Kuba</h2>
+                  <p>6 лет на Airbnb</p>
+                </div>
+              </div>
+              <div class="comentator__reiting">
+                <div class="">
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                </div>
+                <p>март 2025 г.</p>
+                <p class="sup__title">Срок аренды — несколько ночей</p>
+              </div>
+              <p>Вся хорошая мебель среднего класса</p>
+              <a class="show__more-a">Показать еще</a>
+            </li>
+            <li>
+              <div class="profil__comentaror">
+                <img src="./img/comentator img.png" alt="" />
+                <div>
+                  <h2>Kuba</h2>
+                  <p>6 лет на Airbnb</p>
+                </div>
+              </div>
+              <div class="comentator__reiting">
+                <div class="">
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                </div>
+                <p>март 2025 г.</p>
+                <p class="sup__title">Срок аренды — несколько ночей</p>
+              </div>
+              <p>Вся хорошая мебель среднего класса</p>
+              <a class="show__more-a">Показать еще</a>
+            </li>
+            <li>
+              <div class="profil__comentaror">
+                <img src="./img/comentator img.png" alt="" />
+                <div>
+                  <h2>Kuba</h2>
+                  <p>6 лет на Airbnb</p>
+                </div>
+              </div>
+              <div class="comentator__reiting">
+                <div class="">
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                </div>
+                <p>март 2025 г.</p>
+                <p class="sup__title">Срок аренды — несколько ночей</p>
+              </div>
+              <p>Вся хорошая мебель среднего класса</p>
+              <a class="show__more-a">Показать еще</a>
+            </li>
+            <li>
+              <div class="profil__comentaror">
+                <img src="./img/comentator img.png" alt="" />
+                <div>
+                  <h2>Kuba</h2>
+                  <p>6 лет на Airbnb</p>
+                </div>
+              </div>
+              <div class="comentator__reiting">
+                <div class="">
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                  <img src="./img/stars.png" alt="" />
+                </div>
+                <p>март 2025 г.</p>
+                <p class="sup__title">Срок аренды — несколько ночей</p>
+              </div>
+              <p>Вся хорошая мебель среднего класса</p>
+              <a class="show__more-a">Показать еще</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="location">
+        <div class="inner">
+          <h2 class="big__title">Где вы будете</h2>
+          <img src="./img/location.png" alt="" />
+        </div>
+      </section>
+      <section class="yasar">
+        <div class="inner">
+          <div class="yasar__wrapper">
+            <div class="">
+              <h2 class="big__title">Познакомьтесь с хозяином</h2>
+              <img src="./img/yasat.png" alt="" />
+              <p class="title">
+                Здравствуйте! Меня зовут Ясар, буду вашим хозяином. В Дубайте мы
+                - небольшой бизнес, который хочет сделать вашу поездку
+                максимально лучшей, для этого мы всегда рады помочь.
+              </p>
+            </div>
+            <div class="">
+              <h2 class="big__title">Yasar — суперхозяин</h2>
+              <p>
+                Суперхозяин — это опытный хозяин с высокими оценками, который
+                делает всё для комфорта гостей.
+              </p>
+              <div class="big__title">Вторые хозяева</div>
+              <div class="profil__wrappper">
+                <img src="./img/profil img f.png" alt="" />
+                <h2 class="big__title">Feleazar Jr</h2>
+              </div>
+              <p class="big__title">О хозяине</p>
+              <p class="sup__text">
+                Быстрота ответов: 100% Отвечает в течение часа
+              </p>
+              <button class="yasar__btn">Написать хозяину</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="importent__info">
+        <div class="inner">
+          <h2 class="big__title">Важная информация</h2>
+          <ul class="info__list">
+            <li class="info__item">
+              <h3 class="info__big-title">Правила дома</h3>
+              <h3 class="info__title">Прибытие после 16:00</h3>
+              <h3 class="info__title">Выезд до 11:00</h3>
+              <h3 class="info__title">Максимум 4 гостя</h3>
+              <a href=""><img src="./img/show__more-link.png" alt="" /></a>
+            </li>
+            <li class="info__item">
+              <h3 class="info__big-title">Безопасность и жилье</h3>
+              <h3 class="info__title">Датчик угарного газа</h3>
+              <h3 class="info__title">Датчик дыма</h3>
+              <a href=""><img src="./img/show__more-link.png" alt="" /></a>
+            </li>
+            <li class="info__item">
+              <h3 class="info__big-title">Правила отмены</h3>
+              <h3 class="info__title">
+                Бесплатная отмена в течение 48 часов. Частичный возврат при
+                отмене до 15 авг.
+              </h3>
+              <h3 class="info__title">
+                Прочитайте правила отмены, установленные хозяином.
+              </h3>
+              <a href=""><img src="./img/show__more-link.png" alt="" /></a>
+            </li>
+          </ul>
         </div>
       </section>
     </main>

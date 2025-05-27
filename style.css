@@ -9,7 +9,6 @@
 
 a {
   text-decoration: none;
-  color: black;
 }
 
 ul {
@@ -94,8 +93,6 @@ nav {
 .black__bg {
   background-color: black;
   color: white;
-  display: flex;align-items: center;
-  justify-content: center;
 }
 
 .header__btn-menu {
@@ -133,7 +130,6 @@ nav {
 
 .hero__dubai {
   margin-top: 60px;
-    margin-left: 20px;
 }
 
 .bi-heart {
@@ -599,28 +595,6 @@ gap: 30px;
   }
 }
 
-@media only screen and (max-width: 625px){
-.prophile__settings{
-    margin-left: 20px;
-}
-  .prophile__accaunt{
-    max-width: 685px;
-    min-width: 190px;
-  }
-  .footer__left{
-    display: none;
-  }
-
-.search{
-  display: none;
-}
-.header__logo-only{
-  display: none;
-}
-.black__bg{
-  display: none;
-}
-}
 @media only screen and (max-width: 625px) {
   .search {
     display: none;
