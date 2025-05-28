@@ -58,6 +58,10 @@ input {
     border: none;
   }
 }
+.hero__img-wrapper{
+  margin-right: 225px;
+}
+
 .serching__wrapper {
   padding: 0 10px;
   border: none;

@@ -1,4 +1,4 @@
-let wrapper=document.querySelector('.hero__dubai');
+let wrapper=document.querySelector('.hero');
 
 let dubay_wrapper=document.querySelector('.hero__dubay');
 let moskva_wrapper=document.querySelector('.hero__moskva');
@@ -7,6 +7,7 @@ let tokyo_wrapper=document.querySelector('.hero__tokyo');
 
 
 let inp=document.querySelector('.search__input');
+let input=document.querySelector('.header__inp');
 
 
 
@@ -30,9 +31,169 @@ let tokyo_places=places.filter(function(item){
 
 
 
+inp.addEventListener('input',function(e){
+    let value=inp.value.toLowerCase();
+    let all_places=places.filter(function(item){
+        return item.city.toLowerCase().includes(value) && item.type=="Отель";
+    })
+    console.log(all_places);
+
+dubay_wrapper.innerHTML='';
+moskva_wrapper.innerHTML='';
+paris_wrapper.innerHTML='';
+tokyo_wrapper.innerHTML='';
+
+    all_places.forEach(function(item){
+
+      if(item.city=='Дубай'){
+        dubay_wrapper.insertAdjacentHTML('beforeend',`
+            <a href="detail.html" style="text-decoration: none; color: black;">
+                <div class="hero__card">
+              <img class="hero__img" src="${item.img}" alt="" />
+              <i class="bi bi-heart"></i>
+              <div class="hero__position">Выбор гостей</div>
+              <p class="hero__card_title">Отель ${item.location}</p>
+              <div class="hero__text_box">
+                <p class="hero__text">${item.price}$ за 1 ночь </p>
+                <p class="hero__text hero__text--star">${item.rating}</p>
+              </div>
+            </div>
+            </a>
+        `)
+      }
+      if(item.city=='Москва'){
+        moskva_wrapper.insertAdjacentHTML('beforeend',`
+            <a href="detail.html" style="text-decoration: none; color: black;">
+                <div class="hero__card">
+              <img class="hero__img" src="${item.img}" alt="" />
+              <i class="bi bi-heart"></i>
+              <div class="hero__position">Выбор гостей</div>
+              <p class="hero__card_title">Отель ${item.location}</p>
+              <div class="hero__text_box">
+                <p class="hero__text">${item.price}$ за 1 ночь </p>
+                <p class="hero__text hero__text--star">${item.rating}</p>
+              </div>  
+            </div>
+            </a>
+        `)
+      }
+      if(item.city=='Париж'){
+        paris_wrapper.insertAdjacentHTML('beforeend',`
+            <a href="detail.html" style="text-decoration: none; color: black;">
+                <div class="hero__card">
+              <img class="hero__img" src="${item.img}" alt="" />
+              <i class="bi bi-heart"></i>
+              <div class="hero__position">Выбор гостей</div>
+              <p class="hero__card_title">Отель ${item.location}</p>
+              <div class="hero__text_box">
+                <p class="hero__text">${item.price}$ за 1 ночь </p>
+                <p class="hero__text hero__text--star">${item.rating}</p>
+              </div>  
+            </div>
+            </a>
+        `)
+      }
+      if(item.city=='Токио'){
+        tokyo_wrapper.insertAdjacentHTML('beforeend',`
+            <a href="detail.html" style="text-decoration: none; color: black;">
+                <div class="hero__card">
+              <img class="hero__img" src="${item.img}" alt="" />
+              <i class="bi bi-heart"></i> 
+              <div class="hero__position">Выбор гостей</div>
+              <p class="hero__card_title">Отель ${item.location}</p>
+              <div class="hero__text_box">
+                <p class="hero__text">${item.price}$ за 1 ночь </p>
+                <p class="hero__text hero__text--star">${item.rating}</p>
+              </div>
+            </div>
+            </a>
+        `)
+      } 
+    })
+})
 
 
 
+input.addEventListener('input',function(e){
+    let value=input.value.toLowerCase();
+    let all_placess=places.filter(function(item){
+        return item.city.toLowerCase().includes(value) && item.type=="Отель";
+    })
+    console.log(all_placess);
+
+dubay_wrapper.innerHTML='';
+moskva_wrapper.innerHTML='';
+paris_wrapper.innerHTML='';
+tokyo_wrapper.innerHTML='';
+
+    all_placess.forEach(function(item){
+
+      if(item.city=='Дубай'){
+        dubay_wrapper.insertAdjacentHTML('beforeend',`
+            <a href="detail.html" style="text-decoration: none; color: black;">
+                <div class="hero__card">
+              <img class="hero__img" src="${item.img}" alt="" />
+              <i class="bi bi-heart"></i>
+              <div class="hero__position">Выбор гостей</div>
+              <p class="hero__card_title">Отель ${item.location}</p>
+              <div class="hero__text_box">
+                <p class="hero__text">${item.price}$ за 1 ночь </p>
+                <p class="hero__text hero__text--star">${item.rating}</p>
+              </div>
+            </div>
+            </a>
+        `)
+      }
+      if(item.city=='Москва'){
+        moskva_wrapper.insertAdjacentHTML('beforeend',`
+            <a href="detail.html" style="text-decoration: none; color: black;">
+                <div class="hero__card">
+              <img class="hero__img" src="${item.img}" alt="" />
+              <i class="bi bi-heart"></i>
+              <div class="hero__position">Выбор гостей</div>
+              <p class="hero__card_title">Отель ${item.location}</p>
+              <div class="hero__text_box">
+                <p class="hero__text">${item.price}$ за 1 ночь </p>
+                <p class="hero__text hero__text--star">${item.rating}</p>
+              </div>  
+            </div>
+            </a>
+        `)
+      }
+      if(item.city=='Париж'){
+        paris_wrapper.insertAdjacentHTML('beforeend',`
+            <a href="detail.html" style="text-decoration: none; color: black;">
+                <div class="hero__card">
+              <img class="hero__img" src="${item.img}" alt="" />
+              <i class="bi bi-heart"></i>
+              <div class="hero__position">Выбор гостей</div>
+              <p class="hero__card_title">Отель ${item.location}</p>
+              <div class="hero__text_box">
+                <p class="hero__text">${item.price}$ за 1 ночь </p>
+                <p class="hero__text hero__text--star">${item.rating}</p>
+              </div>  
+            </div>
+            </a>
+        `)
+      }
+      if(item.city=='Токио'){
+        tokyo_wrapper.insertAdjacentHTML('beforeend',`
+            <a href="detail.html" style="text-decoration: none; color: black;">
+                <div class="hero__card">
+              <img class="hero__img" src="${item.img}" alt="" />
+              <i class="bi bi-heart"></i> 
+              <div class="hero__position">Выбор гостей</div>
+              <p class="hero__card_title">Отель ${item.location}</p>
+              <div class="hero__text_box">
+                <p class="hero__text">${item.price}$ за 1 ночь </p>
+                <p class="hero__text hero__text--star">${item.rating}</p>
+              </div>
+            </div>
+            </a>
+        `)
+      } 
+    })
+})
 
 
 

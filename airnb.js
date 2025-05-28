@@ -418,7 +418,7 @@ const places = [
   {
     title: "Научитесь печь <br> французские круассаны",
     id: 41,
-    city: "Дубай",
+    city: " ",
     category: "photo",
     type: "experience",
     location: "Al-Quez",
