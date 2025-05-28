@@ -118,7 +118,9 @@ nav {
 .header__logo-min {
   display: none;
 }
-
+.hero {
+ margin-left: 300px;
+}
 .hero__wrapper {
   display: flex;
   gap: 30px;
@@ -495,6 +497,14 @@ line-height: 20px;
 letter-spacing: 0%;
 color: #222222;
 }
+
+@media only screen and (max-width: 1400px){
+  .hero {
+    margin-left: 100px;
+  }
+}
+
+
 @media only screen and (max-width: 1080px){
 .prophile__about_me{
   margin-left: 30px;
@@ -505,12 +515,21 @@ color: #222222;
 .hero__wrapper{
     overflow-x: scroll;
 }
+
+.hero{
+  margin-left: 100px;
+}
+
 }
 
 
 
 
 @media only screen and (max-width: 850px){
+.hero{
+  margin-left: 50px;
+}
+
 .prophile__settings{
   display: flex;
   align-items: left;flex-direction: column;
@@ -579,6 +598,10 @@ gap: 30px;
   }
 }
 @media screen and (max-width: 768px) {
+  .hero{
+  margin-left: 0px;
+}
+
   .header__wrapper {
     flex-direction: column;
     gap: 0;
@@ -638,4 +661,11 @@ gap: 30px;
     height: 50px;
   }
   
+}
+
+
+@media only screen and (max-width: 400px) {
+  .footer__bottom{
+    display: none;
+  }
 }

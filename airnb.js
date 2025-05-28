@@ -220,7 +220,7 @@ const places = [
     img: "./products/20.png"
   },
   
-];
+ 
 
 
 
@@ -228,280 +228,374 @@ const places = [
 
 
 
-const job = [
+ 
   {
-    id: 1,
+    title: "Стильная фотосессия с <br> винтажным автомобилем",
+    id: 21,
     city: "Дубай",
-    category: "популярное жилье",
+    category: "photo",
     type: "usluga",
     location: "Al-Quez",
     price: 82,
     duration: "2 ночи",
     rating: 5.0,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
+    img: "./products/22.png"
   },
   {
-    id: 2,
+    title: "Настоящая фотосессия <br> от Эшли",
+    id: 22,
     city: "Дубай",
-    category: "популярное жилье",
+    category: "photo",
     type: "usluga",
     location: "Downtown",
     price: 120,
     duration: "3 ночи",
     rating: 4.8,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
+    img: "./products/23.png"
   },
   {
-    id: 3,
+    title: "Фотосессия на Palm Jumeirah",
+    id: 23,
     city: "Дубай",
-    category: "уникальное жилье",
+    category: "photo",
     type: "usluga",
     location: "Palm Jumeirah",
     price: 350,
     duration: "1 ночь",
     rating: 4.9,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
+    img: "./products/24.png"
   },
   {
-    id: 4,
+    title: "Воздушная и наземная <br> фотосъемка Даниэля",
+    id: 24,
     city: "Дубай",
-    category: "популярное жилье",
+    category: "photo",
     type: "usluga",
     location: "Deira",
     price: 65,
     duration: "4 ночи",
     rating: 4.5,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
+    img: "./products/27.png"
   },
   {
-    id: 5,
+    title:"Фотосессия для пары <br> от Джеффа",
+    id: 25,
     city: "Дубай",
-    category: "уникальное жилье",
+    category: "photo",
     type: "usluga",
     location: "Marina",
     price: 280,
     duration: "2 ночи",
     rating: 5.0,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
+    img: "./products/35.png"
   },
   {
-    id: 6,
+    title: "Тренировка всего тела <br> с Питером",
+    id: 26,
     city: "Москва",
-    category: "популярное жилье",
+    category: "training",
     type: "usluga",
     location: "Центр",
     price: 45,
     duration: "3 ночи",
     rating: 4.7,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
+    img: "./products/21.png"
   },
   {
-    id: 7,
+    title: "Восстановительный фитнес <br> с Тейлором",
+    id: 27,
     city: "Москва",
-    category: "уникальное жилье",
+    category: "training",
     type: "usluga",
     location: "Красный Октябрь",
     price: 90,
     duration: "2 ночи",
     rating: 4.9,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
+    img: "./products/29.png"
   },
   {
-    id: 8,
+    title: "Персональные тренировки <br> и групповой фитнес",
+    id: 28,
     city: "Москва",
-    category: "популярное жилье",
+    category: "training",
     type: "usluga",
     location: "Арбат",
     price: 60,
     duration: "5 ночей",
     rating: 4.6,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
+    img: "./products/33.png"
   },
   {
-    id: 9,
+    id: 29,
     city: "Москва",
-    category: "популярное жилье",
+    category: "training",
+    title: "Йога и звуковая ванна от <br> Дженнифер",
     type: "usluga",
     location: "Тверская",
     price: 75,
     duration: "1 ночь",
     rating: 4.4,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
+    img: "./products/31.png"
   },
   {
-    id: 10,
+    title: "Ритуальная йога с Аной",
+    id: 30,
     city: "Москва",
-    category: "уникальное жилье",
+    category: "training",
     type: "usluga",
     location: "Остоженка",
     price: 200,
     duration: "3 ночи",
     rating: 5.0,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
+    img: "./products/32.png"
   },
   {
-    id: 11,
+    title: "Аюрведическая терапия с <br> маслами Тани",
+    id: 31,
     city: "Париж",
-    category: "популярное жилье",
+    category: "masaj",
     type: "usluga",
     location: "Монмартр",
     price: 95,
     duration: "2 ночи",
     rating: 4.8,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
+    img: "./products/25.png"
   },
   {
-    id: 12,
+    title: "Массаж в Латинском квартале <br> от Софи",
+    id: 32,
     city: "Париж",
-    category: "уникальное жилье",
+    category: "masaj",
     type: "usluga",
     location: "Латинский квартал",
     price: 70,
     duration: "4 ночи",
     rating: 4.7,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
+    img: "./products/26.png"
   },
   {
-    id: 13,
+    title: "Расслабляющий массаж <br> в Шанз-Элизе",
+    id: 33,
     city: "Париж",
-    category: "популярное жилье",
+    category: "masaj",
     type: "usluga",
     location: "Шанз-Элизе",
     price: 180,
     duration: "1 ночь",
     rating: 4.9,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
+    img: "./products/36.png"
   },
   {
-    id: 14,
+    title: "Массаж в Ле Марэ <br> от Клэр",
+    id: 34,
     city: "Париж",
-    category: "популярное жилье",
+    category: "masaj",
     type: "usluga",
     location: "Ле Марэ",
     price: 110,
     duration: "3 ночи",
     rating: 4.6,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
+    img: "./products/37.png"
   },
   {
-    id: 15,
+    title: "Массаж в Версале <br> от Жюльетты",
+    id: 35,
     city: "Париж",
-    category: "уникальное жилье",
+    category: "masaj",
     type: "usluga",
     location: "Версаль",
     price: 400,
     duration: "2 ночи",
     rating: 5.0,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
+    img: "./products/38.png"
   },
+   
+ 
+
+
+
+ 
   {
-    id: 16,
-    city: "Токио",
-    category: "популярное жилье",
-    type: "usluga",
-    location: "Синдзюку",
-    price: 85,
-    duration: "4 ночи",
-    rating: 4.7,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
-  },
-  {
-    id: 17,
-    city: "Токио",
-    category: "уникальное жилье",
-    type: "usluga",
-    location: "Асакуса",
-    price: 150,
-    duration: "2 ночи",
-    rating: 4.9,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
-  },
-  {
-    id: 18,
-    city: "Токио",
-    category: "популярное жилье",
-    type: "usluga",
-    location: "Сибуя",
-    price: 100,
-    duration: "3 ночи",
-    rating: 4.5,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
-  },
-  {
-    id: 19,
-    city: "Токио",
-    category: "популярное жилье",
-    type: "usluga",
-    location: "Гион",
-    price: 75,
-    duration: "5 ночей",
-    rating: 4.6,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
-  },
-  {
-    id: 20,
-    city: "Токио",
-    category: "уникальное жилье",
-    type: "usluga",
-    location: "Акихабара",
-    price: 40,
-    duration: "1 ночь",
-    rating: 4.2,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
-  },
-  {
-    id: 21,
-    city: "Нью-Йорк",
-    category: "популярное жилье",
-    type: "usluga",
-    location: "Манхэттен",
-    price: 130,
-    duration: "3 ночи",
-    rating: 4.8,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
-  },
-  {
-    id: 22,
-    city: "Нью-Йорк",
-    category: "уникальное жилье",
-    type: "usluga",
-    location: "Бруклин",
-    price: 160,
-    duration: "2 ночи",
-    rating: 4.9,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
-  },
-  {
-    id: 23,
-    city: "Нью-Йорк",
-    category: "популярное жилье",
-    type: "usluga",
-    location: "Таймс-сквер",
-    price: 200,
-    duration: "1 ночь",
-    rating: 4.7,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
-  },
-  {
-    id: 24,
-    city: "Нью-Йорк",
-    category: "популярное жилье",
-    type: "usluga",
-    location: "Челси",
-    price: 110,
-    duration: "4 ночи",
-    rating: 4.6,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
-  },
-  {
-    id: 25,
-    city: "Нью-Йорк",
-    category: "уникальное жилье",
-    type: "usluga",
-    location: "Центральный парк",
-    price: 350,
+    title: "Научитесь печь <br> французские круассаны",
+    id: 41,
+    city: "Дубай",
+    category: "photo",
+    type: "experience",
+    location: "Al-Quez",
+    price: 82,
     duration: "2 ночи",
     rating: 5.0,
-    img: "https://a0.muscache.com/im/pictures/Mt/MtTemplate-4431689/original/74934154-e590-4b60-9079-84d2e24599af.jpeg"
-  }
+    img: "./products/39.png"
+  },
+  {
+    title: "Найдите укромные <br> подпольные бары",
+    id: 42,
+    city: "Дубай",
+    category: "photo",
+    type: "experience",
+    location: "Downtown",
+    price: 120,
+    duration: "3 ночи",
+    rating: 4.8,
+    img: "./products/40.png"
+  },
+  {
+    title: "Кровавый Париж:<br>преступления и призраки",
+    id: 43,
+    city: "Дубай",
+    category: "photo",
+    type: "experience",
+    location: "Palm Jumeirah",
+    price: 350,
+    duration: "1 ночь",
+    rating: 4.9,
+    img: "./products/41.png"
+  },
+  {
+    title: "Лучшие <br> 10 достопримечательностей <br> Парижа с веселым гидом",
+    id: 44,
+    city: "Дубай",
+    category: "photo",
+    type: "experience",
+    location: "Deira",
+    price: 65,
+    duration: "4 ночи",
+    rating: 4.5,
+    img: "./products/42.png"
+  },
+  {
+    title:"Призраки Парижа: <br> привидения, легенды и <br> загадочные преступлениях",
+    id: 45,
+    city: "Дубай",
+    category: "photo",
+    type: "experience",
+    location: "Marina",
+    price: 280,
+    duration: "2 ночи",
+    rating: 5.0,
+    img: "./products/43.png"
+  },
+  {
+    title: "Секреты Лондонского <br> Тауэра с ученым",
+  
+    id: 46,
+    city: "Москва",
+    category: "training",
+    type: "experience",
+    location: "Центр",
+    price: 45,
+    duration: "3 ночи",
+    rating: 4.7,
+    img: "./products/44.png"
+  },
+  {
+    title: "Королевский Лондон и <br> смена караула",
+    id: 47,
+    city: "Москва",
+    category: "training",
+    type: "experience",
+    location: "Красный Октябрь",
+    price: 90,
+    duration: "2 ночи",
+    rating: 4.9,
+    img: "./products/46.png"
+  },
+  {
+    title: "Прогулка по квадратной <br>  миле города",
+    id: 48,
+    city: "Москва",
+    category: "training",
+    type: "experience",
+    location: "Арбат",
+    price: 60,
+    duration: "5 ночей",
+    rating: 4.6,
+    img: "./products/47.png"
+  },
+  {
+    id: 49,
+    city: "Москва",
+    category: "training",
+    title: "Королевские секреты <br> Виндзора с историком",
+
+    type: "experience",
+    location: "Тверская",
+    price: 75,
+    duration: "1 ночь",
+    rating: 4.4,
+    img: "./products/48.png"
+  },
+  {
+    title: "Декодируйте секреты <br> Британского музея",
+    id: 50,
+    city: "Москва",
+    category: "training",
+    type: "experience",
+    location: "Остоженка",
+    price: 200,
+    duration: "3 ночи",
+    rating: 5.0,
+    img: "./products/45.png"
+  },
+  {
+    title: "Descubra o centro histórico<br>de São Paulo",
+    id: 51,
+    city: "Париж",
+    category: "masaj",
+    type: "experience",
+    location: "Монмартр",
+    price: 95,
+    duration: "2 ночи",
+    rating: 4.8,
+    img: "./products/49.png"
+  },
+  {
+    title: "Uncover São Paulo’s boteco <br>spirit with an insider",
+    id: 52,
+    city: "Париж",
+    category: "masaj",
+    type: "experience",
+    location: "Латинский квартал",
+    price: 70,
+    duration: "4 ночи",
+    rating: 4.7,
+    img: "./products/50.png"
+  },
+  {
+    title: "Witness traditional capoeira <br>with a capoeirista",
+    id: 53,
+    city: "Париж",
+    category: "masaj",
+    type: "experience",
+    location: "Шанз-Элизе",
+    price: 180,
+    duration: "1 ночь",
+    rating: 4.9,
+    img: "./products/51.png"
+  },
+  {
+    title: "Uncover a modern furniture <br>archive in Jardins",
+    id: 54,
+    city: "Париж",
+    category: "masaj",
+    type: "experience",
+    location: "Ле Марэ",
+    price: 110,
+    duration: "3 ночи",
+    rating: 4.6,
+    img: "./products/52.png"
+  },
+  {
+    title: "Visit São Paulo's iconic spots<br>with an architect",
+    id: 55,
+    city: "Париж",
+    category: "masaj",
+    type: "experience",
+    location: "Версаль",
+    price: 400,
+    duration: "2 ночи",
+    rating: 5.0,
+    img: "./products/53.png"
+  },
+   
 ];
